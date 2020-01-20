@@ -1,0 +1,22 @@
+{
+  "name": "refactoring-servers",
+  "version": "0.1.0",
+  "description": "[TRAINING] Web Servers | Web Refactoring into Testability ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThirstyHead/refactoring-servers.git"
+  },
+  "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/ThirstyHead/refactoring-servers/issues"
+  },
+  "homepage": "https://github.com/ThirstyHead/refactoring-servers#readme",
+  "dependencies": {
+    "talk-o-vision": "github:thirstyhead/talk-o-vision"
+  }
+}
