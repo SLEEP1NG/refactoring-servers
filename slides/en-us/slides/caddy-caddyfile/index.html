@@ -1,0 +1,27 @@
+      <section>
+        <h2 hidden aria-hidden="false">Caddy Caddyfile</h2>
+        <figure>
+          <p class="smaller">Using Caddy as a web server from any directory simply requires a <span class="highlight">Caddyfile</span> to specify the hostname (empty here, so localhost) and the port.</p>
+          <pre><code>
+$ ls
+-rw-r--r--  1 scott  staff     6 Jan 21 14:52 Caddyfile
+-rw-r--r--  1 scott  staff  2462 Jan 21 13:15 index.html
+-rw-r--r--  1 scott  staff  1570 Jan 21 13:14 recipe.txt
+
+$ cat Caddyfile
+:8888
+
+$ caddy
+Activating privacy features... done.
+
+Serving HTTP on port 8888 
+http://:8888
+          </code></pre>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>

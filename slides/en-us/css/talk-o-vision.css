@@ -263,6 +263,14 @@ p.right{
   color: var(--theme-background-color);
 }
 
+.theme-invert li a{
+  color: var(--theme-background-color);
+}
+
+.theme-invert li a:hover{
+  color: var(--theme-link-hover-color);
+}
+
 .theme-invert code{
   background-color: var(--theme-background-color);
   color: var(--theme-foreground-color);

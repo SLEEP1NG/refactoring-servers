@@ -1,0 +1,28 @@
+      <section>
+        <h2 hidden aria-hidden="false">cURL HEAD</h2>
+        <figure>
+          <p class="smaller">Using cURL, HEAD, and --verbose <span class="highlight">to see the HTTP request and response headers</span></p>
+          <pre><code>
+$ curl --head --verbose localhost:9999 
+
+* Connected to localhost (::1) port 9999 (#0)
+&gt; HEAD / HTTP/1.1
+&gt; Host: localhost:9999
+&gt; User-Agent: curl/7.64.1
+&gt; Accept: */*
+
+&lt; HTTP/1.0 200 OK
+&lt; Server: SimpleHTTP/0.6 Python/3.8.1
+&lt; Date: Tue, 21 Jan 2020 21:08:21 GMT
+&lt; Content-type: text/html
+&lt; Content-Length: 2462
+&lt; Last-Modified: Tue, 21 Jan 2020 20:15:56 GMT
+          </code></pre>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
